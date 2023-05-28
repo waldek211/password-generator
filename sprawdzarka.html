@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Sprawdź siłę hasła</title>
+    <link rel="stylesheet" href="style2.css">
+    </style>
+    <script src="app2.js">
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sprawdź siłę hasła</h1>
+    <div class="password-input">
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" onkeyup="sprawdz()" />
+    </div>
+    <div class="password-strength">
+        Siła hasła:
+        <span id="strength-badge"></span>
+        <span id="strength-text"></span>
+    </div>
+    </div>
+
+    <p>Chcesz wygenerować swoje unikatowe hasło?
+        <span style="color:red; font-weight: 700;"> <a href="index.html">Naciśnij</a></span>
+    </p>
+</body>
+</html>
